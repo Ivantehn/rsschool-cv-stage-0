@@ -1,1 +1,111 @@
-a
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro';
+}
+
+header {
+    background-image: url(https://st.dg-home.ru/upload/iblock/75c/30k88sixd7ks7k5gq6pkd6khtmksc5qi/eto_nado_videt_uensdey_i_eshche_7_novykh_serialov_dlya_yanvarskikh_kanikul.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+}
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_pagination {
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_pagination li {
+    display: inline;
+}
+
+.nav_pagination a {
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 5px solid white;
+    text-decoration: none;
+}
+
+.header {
+    color: white;
+}
+
+.header_im {
+    text-align: right;
+    padding-right: 20%;
+}
+
+.header_front {
+    text-align: right;
+    padding-right: 17%;
+}
+
+
+#header_img {
+    float: right;
+    width: 250px;
+    padding-right: 17%;
+}
+
+main {
+    text-align: center;
+    background: linear-gradient(291deg, black, #948989bf, black);
+
+}
+
+#main_contact {
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.main_phone {
+    padding: 10px;
+}
+
+.main_mail {
+    padding: 10px;
+}
+.main_li_git {
+    padding: 10px;
+}
+
+.main_information-me {
+    padding: 5px;
+}
+
+#main_git {
+    text-decoration: none;
+}
+
+#main_english {
+    padding: 40px;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(203deg, black, #948989bf, black);
+}
+
+#footer_git {
+    text-decoration: none;
+    color: antiquewhite;
+}
