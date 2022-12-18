@@ -1,10 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="assets/img/YlSVPGEKnug1xO5I9JNA.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
-<body></body>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav_pagination">
+                <li><a href="#contact">My contact information</a></li>
+                <li><a href="#brief">Brief information about yourself</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code examples</a></li>
+                <li><a href="#work">Work experience</a></li>
+                <li><a href="#english">English</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <h1 class="header_im">Burak Ivan</h1>
+            <h2 class="header_front">JavaScript/Front-end</h2>
+            <img id="header_img" src="assets/img/IMG_8038.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2 id="main_contact">My contact information:</h2>
+            </div>
+            <ul>
+                <li class="main_phone">phone number +375293422007</li>
+                <li class="main_mail">mail: burakvany@gmail.com</li>
+                <li class="main_li_git">Github: https://github.com/Ivantehn</li>
+            </ul>
+        </section>
+        <section class="main_information">
+            <h2 class="main_information-me">Brief information about yourself:</h2>
+            <p>I work in production, I study at the university. I want to learn programming, I have no experience in
+                this, but I want to work in IT.</p>
+        </section>
+        <section>
+            <h2>Skills:</h2>
+            <ol>
+                <li>GitHub</li>
+                <li>Сodewars </li>
+            </ol>
+        </section>
+        <section>
+            <h2>Code examples:</h2>
+            <pre>
+                <code>
+                    function betterThanAverage(classPoints, yourPoints) {
+                        let a = classPoints.length;
+                        let b = classPoints.reduce((a,b)=>a+b) / a;
+                        return yourPoints > b ? true : false;
+                      }
+                </code>
+            </pre>
+        </section>
+        <section>
+            <h2 id="main_work">Work experience:</h2>
+            <a id="main_git" href="https://github.com/Ivantehn/rsschool-cv/blob/gh-pages/cv.md">There is no robot experience, only
+                this project</a>
+        </section>
+        <section>
+            <h2 id="main_english">English level А2 or В1</h2>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a id="footer_git" href="https://github.com/Ivantehn">GitHub</a>
+        </div>
+        <p>2022</p>
+        <div>
+            <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="" width="150" height="150">
+            </a>
+        </div>
+    </footer>
+</body>
+
 </html>
