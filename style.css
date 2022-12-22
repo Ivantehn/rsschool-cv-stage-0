@@ -76,17 +76,25 @@ main {
 
 .main_phone {
     padding: 10px;
+    list-style-type: none;
 }
 
 .main_mail {
     padding: 10px;
+    list-style-type: none;
 }
+
 .main_li_git {
     padding: 10px;
+    list-style-type: none;
 }
 
 #main_information-me {
     padding: 5px;
+}
+
+.skills_ol {
+    list-style-type: none;
 }
 
 #main_git {
@@ -94,8 +102,13 @@ main {
 }
 
 #main_english {
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
     margin: 0;
+}
+
+.main_english_text {
+    margin: 0;
+    padding: 40px;
 }
 
 footer {
