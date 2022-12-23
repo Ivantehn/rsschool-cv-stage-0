@@ -2,7 +2,220 @@
     font-family: Inika;
     src: url("assets/fonts/Inika/Inika-Regular.ttf");
 }
+
 @font-face {
     font-family: Inter;
     src: url("assets/fonts/Inter/static/Inter-Regular.ttf");
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inika', 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+}
+
+header {
+    width: 1440px;
+    height: 134px;
+    margin: 0px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    background-color: #EDF2EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_bar {
+    width: 1220px;
+    height: 50px;
+    display: flex;
+}
+
+.header_logo {
+    width: 79.17px;
+    height: 21.04px;
+    margin: 14px 0px 0px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header_nav {
+    width: 452px;
+    height: 50px;
+    display: flex;
+    margin-left: 688px;
+}
+
+header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+}
+
+.header_nav_home {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(224, 103, 51, 1);
+    width: 44px;
+    height: 50px;
+    margin-right: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav_about {
+    width: 67px;
+    height: 50px;
+    margin-right: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav_service {
+    width: 55px;
+    height: 50px;
+    margin-right: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav_price {
+    width: 38px;
+    height: 50px;
+    margin-right: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav_contacts {
+    width: 64px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome {
+    width: 1440px;
+    height: 532px;
+    background: #EDF2EC;
+}
+
+.subheader {
+    width: 1222px;
+    height: 407.36px;
+    display: flex;
+}
+
+.subheader_img {
+    width: 448.8px;
+    height: 407.36px;
+    margin: 62px 224px 62px 109px;
+}
+
+.subheader_div {
+    width: 549px;
+    height: 340px;
+    margin: 98px 109px 94px 0px;
+}
+
+.subheader_title {
+    width: 549px;
+    height: 101px;
+    margin: 0px 0px 42px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #717171;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.welcome_plants {
+    color: rgba(73, 154, 24, 1);
+}
+
+.subheader_subtitle {
+    width: 525.44px;
+    height: 105px;
+    margin: 0px 0px 48px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.subheader_button {
+    width: 158px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+}
+
+.about {
+    width: 1440px;
+    height: 666px;
+}
+
+.about_section {
+    width: 1222px;
+    height: 479px;
+    display: flex;
+}
+
+.about_div {
+    width: 605px;
+    height: 350px;
+    margin: 161px 153px 155px 109px;
+}
+
+.about_title {
+    width: 463px;
+    height: 102px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin: 0px 0px 40px 0px;
+}
+
+.about_professional {
+    color: rgba(224, 103, 51, 1);
+}
+
+.about_subtitle {
+    width: 605px;
+    height: 208px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    margin: 0px;
+}
+
+.about_foto {
+    width: 464px;
+    height: 479px;
+    margin: 93px 109px 94px 0px;
 }

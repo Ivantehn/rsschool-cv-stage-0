@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,46 +8,52 @@
     <link rel="stylesheet" href="style.css">
     <title>Plants</title>
 </head>
+
 <body>
     <header class="header">
-        <div>
-            <nav class="header_nav">
-                <ul>
-                    <li>Price</li>
-                    <li>About us</li>
-                    <li>Contacts</li>
-                    <li>Service</li>
-                    <li>Home</li>
-                </ul>
-            </nav>
-            <div class="header_logo">
+        <div class="header_bar">
+             <div class="header_logo">
                 <span>Plants</span>
                 <div class="header_img_logo">
                     <img src="assets/fonts/logo_vector.svg" alt="logo">
                 </div>
             </div>
+            <nav class="header_nav">
+                <ul>
+                    <li class="header_nav_home">Home</li>
+                    <li class="header_nav_about">About us</li>
+                    <li class="header_nav_service">Service</li>
+                    <li class="header_nav_price">Price</li>
+                    <li class="header_nav_contacts">Contacts</li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
         <section class="welcome">
             <div class="subheader">
                 <div class="subheader_img">
-                    <img src="assets/img/leafs1.jpg" alt="foto">
+                    <img src="assets/img/leafs.png" alt="foto">
                 </div>
                 <div class="subheader_div">
-                    <h1 class="subheader_title">We grow plants and give you oxygen</h1>
-                    <p class="subheader_subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <h1 class="subheader_title">We grow <span class="welcome_plants">plants</span> and give you oxygen</h1>
+                    <p class="subheader_subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <button class="subheader_button">LEARN MORE</button>
                 </div>
             </div>
         </section>
         <section class="about">
             <div class="about_section">
-                <img src="assets/img/houseplant 1.jpg" alt="flower">
                 <div class="about_div">
-                    <h2 class="about_title">We are professional experienced gardeners</h2>
-                    <p class="about_subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    <h2 class="about_title">We are <span class="about_professional">professional experienced</span> gardeners</h2>
+                    <p class="about_subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged. </p>
                 </div>
+                <img class="about_foto" src="assets/img/houseplant 1.jpg" alt="flower">
             </div>
         </section>
         <section class="service">
@@ -106,19 +113,22 @@
                         <div class="prices_column_pro">
                             <p class="prices_col_title_pro">Pro care</p>
                             <span class="prices_col_dropdown">
-                                <button class="prices_dropbtn"><img src="assets/fonts/arrow.svg" alt="dropdown"></button>
+                                <button class="prices_dropbtn"><img src="assets/fonts/arrow.svg"
+                                        alt="dropdown"></button>
                             </span>
                         </div>
                         <div class="prices_column_basics">
                             <p class="prices_col_title_basics">Basics</p>
                             <span class="prices_col_dropdown">
-                                <button class="prices_dropbtn"><img src="assets/fonts/arrow.svg" alt="dropdown"></button>
+                                <button class="prices_dropbtn"><img src="assets/fonts/arrow.svg"
+                                        alt="dropdown"></button>
                             </span>
                         </div>
                         <div class="prices_column_stan">
                             <p class="prices_col_title_stan">Standard</p>
                             <span class="prices_col_dropdown">
-                                <button class="prices_dropbtn"><img src="assets/fonts/arrow.svg" alt="dropdown"></button>
+                                <button class="prices_dropbtn"><img src="assets/fonts/arrow.svg"
+                                        alt="dropdown"></button>
                             </span>
                         </div>
                     </div>
@@ -153,4 +163,5 @@
         </div>
     </footer>
 </body>
+
 </html>
