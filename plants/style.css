@@ -1,11 +1,25 @@
 @font-face {
     font-family: Inika;
     src: url("assets/fonts/Inika/Inika-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Inika;
+    src: url("assets/fonts/Inika/Inika-Bold.ttf");
+    font-weight: 700;
 }
 
 @font-face {
     font-family: Inter;
     src: url("assets/fonts/Inter/static/Inter-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("assets/fonts/Inter/static/Inter-Bold.ttf");
+    font-weight: 700;
 }
 
 html {
@@ -17,7 +31,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0;
     min-height: 3870px;
     display: flex;
@@ -54,6 +68,10 @@ header {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
+}
+
+.header_img_logo {
+    padding: 0px 0px 6px 0px;
 }
 
 .header_nav {
@@ -151,11 +169,6 @@ header {
     align-items: center;
 }
 
-.subheader_img {
-    width: 448.8px;
-    height: 407.36px;
-}
-
 .subheader_div {
     width: 549px;
     height: 340px;
@@ -166,8 +179,6 @@ header {
 }
 
 .subheader_title {
-    width: 549px;
-    height: 101px;
     margin: 0px;
     font-family: 'Inter';
     font-style: normal;
@@ -190,6 +201,7 @@ header {
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
+    color: #636060;
 }
 
 .subheader_button {
@@ -267,7 +279,7 @@ header {
 
 .service {
     width: 1440px;
-    height: 1300px;
+    height: 1298px;
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgba(237, 242, 236, 1);
@@ -282,6 +294,7 @@ header {
     height: 94px;
     display: flex;
     padding: 40px 324px 0px 109px;
+    justify-content: space-between;
 }
 
 .service_title {
@@ -302,7 +315,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 29px 0px 15px 142px;
+    align-self: center;
+    padding: 14px 0px 0px 0px;
 }
 
 .service_btnplanting {
@@ -316,6 +330,7 @@ header {
     color: #E06733;
     border: 1px solid #E06733;
     border-radius: 5px;
+    padding: 0px 4px 0px 0px;
 }
 
 .service_btnlawn {
@@ -342,6 +357,7 @@ header {
     color: #E06733;
     border: 1px solid #E06733;
     border-radius: 5px;
+    padding: 0px 5px 0px 0px;
 }
 
 .service_content {
@@ -383,7 +399,7 @@ header {
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    margin: 10px 105px 10px 105px;
+    margin: 10px 105px 10px 103px;
 }
 
 .service_list1_p {
@@ -395,7 +411,7 @@ header {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
-    margin: 0px 31.9px 36px 31.91px;
+    margin: 0px 0px 36px 29.91px;
 }
 
 .service_list1_img {
@@ -429,7 +445,7 @@ header {
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    margin: 10px 105px 10px 105px;
+    margin: 10px 83px 10px 124px
 }
 
 .service_list2_p {
@@ -441,7 +457,7 @@ header {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
-    margin: 0px 31.9px 36px 31.91px;
+    margin: 0px 31.9px 36px 29.91px;
 }
 
 .service_list2_img {
@@ -475,7 +491,7 @@ header {
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    margin: 10px 105px 10px 105px;
+    margin: 10px 96px 10px 112px;
 }
 
 .service_list3_p {
@@ -487,7 +503,7 @@ header {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
-    margin: 0px 31.9px 36px 31.91px;
+    margin: 0px 31.9px 36px 28.91px;
 }
 
 .service_list3_img {
@@ -521,7 +537,7 @@ header {
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    margin: 10px 105px 10px 105px;
+    margin: 9px 105px 10px 123px;
 }
 
 .service_list4_p {
@@ -533,7 +549,7 @@ header {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
-    margin: 0px 31.9px 36px 31.91px;
+    margin: 0px 31.9px 36px 29.91px;
 }
 
 .service_list4_img {
@@ -567,7 +583,7 @@ header {
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    margin: 10px 105px 10px 105px;
+    margin: 9px 105px 10px 104px;
 }
 
 .service_list5_p {
@@ -579,7 +595,7 @@ header {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
-    margin: 0px 31.9px 36px 31.91px;
+    margin: 0px 31.9px 36px 29.91px;
 }
 
 .service_list5_img {
@@ -613,7 +629,7 @@ header {
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    margin: 10px 105px 10px 105px;
+    margin: 9px 105px 10px 123px;
 }
 
 .service_list6_p {
@@ -625,7 +641,7 @@ header {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
-    margin: 0px 31.9px 36px 31.91px;
+    margin: 0px 31.9px 36px 28.91px;
 }
 
 .service_list6_img {
@@ -647,7 +663,7 @@ header {
 
 .prices_wrapper {
     width: 1222px;
-    height: 405px;
+    height: 408px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -669,6 +685,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .prices_title {
@@ -702,6 +719,8 @@ header {
     border: 1px solid #E06733;
     border-radius: 5px;
     color: #E06733;
+    padding: 0px 6px 0px 0px;
+    background-color: #FFFFFF;
 }
 
 .prices_wrapper_img {
@@ -881,10 +900,11 @@ header {
 }
 
 .contacts_div {
-    width: 709px;
-    height: 198px;
+    width: 708px;
+    height: 138px;
     display: flex;
     justify-content: space-between;
+    padding-top: 5px;
 }
 
 .contacts_title {
@@ -923,6 +943,7 @@ header {
     border: none;
     background: #D6E7D2;
     margin: 5px 175px 5px 20px;
+    padding: 0px;
 }
 
 .contacts_dropdown {
@@ -963,6 +984,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 0px 2px 0px;
 }
 
 .footer_git {
@@ -976,6 +998,7 @@ footer {
 .footer_github {
     text-decoration: none;
     color: #000000;
+    padding: 0px 14px 0px 0px;
 }
 
 footer p {
@@ -988,6 +1011,7 @@ footer p {
     margin: 0px;
     text-decoration: none;
     color: #000000;
+    padding: 0px 0px 0px 7px;
 }
 
 .footer_socials {
@@ -1002,4 +1026,53 @@ footer p {
 .footer_socials a {
     width: 32px;
     height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*styles for width 768px*/
+
+@media screen and (max-width: 768px) {
+
+    body {
+        min-height: auto;
+    }
+
+    section,
+    header,
+    footer {
+        max-width: 768px !important;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .welcome {
+        height: 420px;
+    }
+
+    .subheader {
+        flex-direction: row-reverse;
+    }
+
+    .subheader_img img {
+        width: 280px;
+        height: 254.15px;
+    }
+
+    .subheader_div {
+        width: 346px;
+        height: 310px;
+    }
+
+    .subheader_title {
+        font-size: 35px;
+    }
+
+    .subheader_subtitle {
+        width: 341px;
+        height: 105px;
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
