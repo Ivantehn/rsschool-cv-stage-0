@@ -41,14 +41,18 @@ body {
 }
 
 header {
-    width: 1440px;
     height: 134px;
+    background-color: #EDF2EC;
+}
+
+.header_background {
+    height: 134px;
+    width: 1440px;
     max-width: 1440px;
     margin: 0 auto;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
-    background-color: #EDF2EC;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -157,11 +161,16 @@ header {
 }
 
 .welcome {
+    height: 532px;
+    background: #EDF2EC;
+
+}
+
+.welcome_background {
     width: 1440px;
     height: 532px;
     max-width: 1440px;
     margin: 0 auto;
-    background: #EDF2EC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,11 +293,16 @@ header {
 }
 
 .service {
+    height: 1298px;
+    background-color: rgba(237, 242, 236, 1);
+
+}
+
+.service_background {
     width: 1440px;
     height: 1298px;
     max-width: 1440px;
     margin: 0 auto;
-    background-color: rgba(237, 242, 236, 1);
     padding-bottom: 2px;
     display: flex;
     flex-direction: column;
@@ -883,11 +897,16 @@ header {
 }
 
 .contacts {
+    height: 550px;
+    background: #EDF2EC;
+
+}
+
+.contacts_background {
     width: 1440px;
     height: 550px;
     max-width: 1440px;
     margin: 0 auto;
-    background: #EDF2EC;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -993,6 +1012,11 @@ footer {
     padding: 0px 0px 2px 0px;
 }
 
+.footer_block a:hover {
+    transform: scale(1.3);
+    text-decoration: underline;
+}
+
 .footer_git {
     Width: 182px;
     height: 50px;
@@ -1023,6 +1047,8 @@ footer p {
 .footer_socials {
     width: 188px;
     height: 50px;
+    list-style-type: none;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -1035,6 +1061,12 @@ footer p {
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+button:hover {
+    background-color: #E06733;
+    color: #000000;
+    transition-duration: 0.8s;
 }
 
 /*styles for width 768px*/
