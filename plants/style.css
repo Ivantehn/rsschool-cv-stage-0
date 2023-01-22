@@ -41,13 +41,14 @@ body {
 }
 
 header {
+    width: 100%;
     height: 134px;
     background-color: #EDF2EC;
 }
 
 .header_background {
-    height: 134px;
-    width: 1440px;
+    width: 100%;
+    height: 100%;
     max-width: 1440px;
     margin: 0 auto;
     font-family: 'Inika';
@@ -59,8 +60,8 @@ header {
 }
 
 .header_bar {
-    width: 1220px;
-    height: 50px;
+    width: 84.78%;
+    height: 38%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,7 +81,7 @@ header {
 }
 
 .header_nav {
-    width: 452px;
+    width: 37%;
     height: 50px;
 }
 
@@ -160,6 +161,22 @@ header {
     color: #010201;
 }
 
+.header_nav_burger {
+    display: none;
+}
+
+.nav_burger {
+    display: none;
+}
+
+.nav_burger li {
+    list-style-type: none;
+}
+
+.nav_burger a {
+    text-decoration: none;
+}
+
 .welcome {
     height: 532px;
     background: #EDF2EC;
@@ -167,8 +184,7 @@ header {
 }
 
 .welcome_background {
-    width: 1440px;
-    height: 532px;
+    height: 100%;
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -177,16 +193,21 @@ header {
 }
 
 .subheader {
-    width: 1222px;
-    height: 407.36px;
+    width: 85%;
+    height: 78%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.subheader_img img {
+    width: 98%;
+    height: 98%;
+}
+
 .subheader_div {
-    width: 549px;
-    height: 340px;
+    width: 45%;
+    height: 82%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -208,8 +229,8 @@ header {
 }
 
 .subheader_subtitle {
-    width: 525.44px;
-    height: 105px;
+    width: 95%;
+    height: 31.5%;
     margin: 0px;
     font-family: 'Inter';
     font-style: normal;
@@ -220,8 +241,8 @@ header {
 }
 
 .subheader_button {
-    width: 158px;
-    height: 44px;
+    width: 29%;
+    height: 13%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -232,17 +253,19 @@ header {
 }
 
 .about {
-    width: 1440px;
     height: 666px;
-    max-width: 1440px;
     margin: 0 auto;
+    max-width: 1440px;
+}
+
+.about_background {
+    height: 100%;
     display: flex;
     align-items: center;
 }
 
 .about_section {
-    width: 1222px;
-    height: 479px;
+    width: 85%;
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -288,8 +311,8 @@ header {
 }
 
 .about_foto {
-    width: 464px;
-    height: 479px;
+    width: 38%;
+    height: 38%;
 }
 
 .service {
@@ -299,9 +322,8 @@ header {
 }
 
 .service_background {
-    width: 1440px;
-    height: 1298px;
-    max-width: 1440px;
+    width: 85%;
+    max-width: 1300px;
     margin: 0 auto;
     padding-bottom: 2px;
     display: flex;
@@ -310,7 +332,7 @@ header {
 }
 
 .service_headline {
-    width: 1007px;
+    width: 82.3%;
     height: 94px;
     display: flex;
     padding: 40px 324px 0px 109px;
@@ -318,7 +340,7 @@ header {
 }
 
 .service_title {
-    width: 306px;
+    width: 30%;
     height: 94px;
     font-family: 'Inika';
     font-style: normal;
@@ -330,11 +352,10 @@ header {
 }
 
 .service_button {
-    width: 559px;
-    height: 50px;
+    width: 55.5%;
+    height: 53%;
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
     align-self: center;
     padding: 14px 0px 0px 0px;
 }
@@ -381,18 +402,18 @@ header {
 }
 
 .service_content {
-    width: 1222px;
+    width: 99.8%;
     height: 955px;
     margin: 90px 0px 121px 0px;
 }
 
 .service_content_items {
+    height: 100%;
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    height: 955px;
 }
 
 .service_list1 {
@@ -671,28 +692,31 @@ header {
 }
 
 .prices {
-    width: 1440px;
     height: 560px;
     background: #FFFFFF;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.prices_background {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .prices_wrapper {
-    width: 1222px;
-    height: 408px;
+    width: 85%;
+    height: 85.6%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 40px 0px 115px 0px;
 }
 
 .prices_wraper_container {
-    width: 452px;
-    height: 405px;
+    width: 37%;
+    height: 84%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -700,8 +724,8 @@ header {
 }
 
 .prices_div {
-    width: 452px;
-    height: 191.01px;
+    width: 100%;
+    height: 47.4%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -709,7 +733,7 @@ header {
 }
 
 .prices_title {
-    width: 452px;
+    width: 100%;
     height: 103px;
     font-family: 'Inter';
     font-style: normal;
@@ -726,8 +750,8 @@ header {
 }
 
 .prices_titlebtn {
-    width: 162px;
-    height: 50px;
+    width: 36%;
+    height: 26%;
     left: 1169px;
     top: 181.01px;
     font-family: 'Inika';
@@ -769,8 +793,8 @@ header {
 }
 
 .prices_list {
-    width: 332px;
-    height: 282.01px;
+    width: 100%;
+    height: 72%;
     box-sizing: border-box;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
@@ -780,36 +804,38 @@ header {
 }
 
 .prices_list_container {
-    width: 250px;
-    height: 214.01px;
+    width: 75.7%;
+    height: 76.6%;
     display: flex;
     flex-wrap: wrap-reverse;
     align-content: space-between;
 }
 
 .prices_column_pro {
-    width: 250px;
-    height: 50px;
+    width: 100%;
+    height: 23.4%;
     background: #EDF2EC;
     border-radius: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .prices_col_title_pro {
-    width: 100px;
-    height: 18px;
+    width: 44.8%;
+    height: 43%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     color: #000000;
-    margin: 16px 54px 16px 40px;
+    margin: 0;
 }
 
 .prices_col_dropdown1 {
+    width: 6%;
     display: flex;
-    margin: 17px 40px 17px 0px;
 }
 
 .prices_dropbtn1 {
@@ -824,28 +850,30 @@ header {
 }
 
 .prices_column_stan {
-    width: 250px;
-    height: 50px;
+    width: 100%;
+    height: 24%;
     background: #EDF2EC;
     border-radius: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .prices_col_title_stan {
-    width: 100px;
-    height: 18px;
+    width: 44.8%;
+    height: 43%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     color: #000000;
-    margin: 16px 54px 16px 40px;
+    margin: 0;
 }
 
 .prices_col_dropdown2 {
+    width: 5.3%;
     display: flex;
-    margin: 17px 40px 17px 0px;
 }
 
 .prices_dropbtn2 {
@@ -861,28 +889,30 @@ header {
 
 
 .prices_column_basics {
-    width: 250px;
-    height: 50px;
+    width: 100%;
+    height: 24%;
     background: #EDF2EC;
     border-radius: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .prices_col_title_basics {
-    width: 100px;
-    height: 18px;
+    width: 44.8%;
+    height: 43%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     color: #000000;
-    margin: 16px 54px 16px 40px;
+    margin: 0;
 }
 
 .prices_col_dropdown3 {
+    width: 5.3%;
     display: flex;
-    margin: 17px 40px 17px 0px;
 }
 
 .prices_dropbtn3 {
@@ -903,8 +933,8 @@ header {
 }
 
 .contacts_background {
-    width: 1440px;
-    height: 550px;
+    width: 98%;
+    height: 100%;
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -913,8 +943,8 @@ header {
 }
 
 .contacts_content {
-    width: 1222px;
-    height: 497px;
+    width: 86.8%;
+    height: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -925,8 +955,8 @@ header {
 }
 
 .contacts_div {
-    width: 708px;
-    height: 138px;
+    width: 58%;
+    height: 28%;
     display: flex;
     justify-content: space-between;
     padding-top: 5px;
@@ -945,19 +975,20 @@ header {
 }
 
 .contacts_column {
-    width: 450px;
-    height: 50px;
+    width: 63.6%;
+    height: 36.1%;
     background: #D6E7D2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px;
     display: flex;
     align-items: center;
     align-self: end;
+    justify-content: initial;
 }
 
 .contacts_column_input {
-    width: 204px;
-    height: 40px;
+    width: 83.7%;
+    height: 96%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -967,8 +998,7 @@ header {
     color: #717171;
     border: none;
     background: #D6E7D2;
-    margin: 5px 175px 5px 20px;
-    padding: 0px;
+    padding-left: 20px;
 }
 
 .contacts_dropdown {
@@ -988,7 +1018,7 @@ header {
 }
 
 footer {
-    width: 1440px;
+    width: 100%;
     height: 130px;
     max-width: 1440px;
     margin: 0 auto;
@@ -998,14 +1028,19 @@ footer {
     font-size: 20px;
     line-height: 50px;
     color: #000000;
+
+}
+
+.footer_background {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .footer_block {
-    width: 1222px;
-    height: 50px;
+    width: 84.8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1018,8 +1053,7 @@ footer {
 }
 
 .footer_git {
-    Width: 182px;
-    height: 50px;
+    width: 14.9%;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -1036,8 +1070,7 @@ footer p {
 }
 
 .footer_school {
-    width: 211px;
-    height: 50px;
+    width: 17.3%;
     margin: 0px;
     text-decoration: none;
     color: #000000;
@@ -1045,8 +1078,7 @@ footer p {
 }
 
 .footer_socials {
-    width: 188px;
-    height: 50px;
+    width: 15.4%;
     list-style-type: none;
     padding: 0px;
     display: flex;
@@ -1066,12 +1098,12 @@ footer p {
 button:hover {
     background-color: #E06733;
     color: #000000;
-    transition-duration: 0.8s;
+    transition-duration: 0.6s;
 }
 
 /*styles for width 768px*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1167px) {
 
     body {
         min-height: auto;
@@ -1080,9 +1112,25 @@ button:hover {
     section,
     header,
     footer {
-        max-width: 768px !important;
+        width: 100% !important;
         margin: 0 auto;
-        padding: 0 50px;
+    }
+
+    header {
+        height: 117px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header_bar {
+        width: 87.38%;
+        height: 34%;
+    }
+
+    .header_nav {
+        width: 67.5%;
+        height: 47px;
     }
 
     .welcome {
@@ -1090,7 +1138,10 @@ button:hover {
     }
 
     .subheader {
+        width: 87%;
+        height: 83%;
         flex-direction: row-reverse;
+        align-items: normal;
     }
 
     .subheader_img img {
@@ -1099,18 +1150,664 @@ button:hover {
     }
 
     .subheader_div {
-        width: 346px;
-        height: 310px;
+        width: 53%;
+        height: 89%;
     }
 
     .subheader_title {
+        height: 42%;
         font-size: 35px;
     }
 
     .subheader_subtitle {
-        width: 341px;
-        height: 105px;
+        width: 92%;
+        height: 43%;
         font-size: 16px;
         line-height: 25px;
+        padding-left: 5px;
+    }
+
+    .subheader_button {
+        width: 45%;
+        height: 14%;
+    }
+
+    .about {
+        height: 783px;
+    }
+
+    .about_background {
+        height: 92%;
+    }
+
+    .about_section {
+        width: 89%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .about_div {
+        width: 98%;
+        height: 49%;
+        align-items: center;
+    }
+
+    .about_title {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .about_subtitle {
+        width: 100%;
+        height: 59.8%;
+    }
+
+    .about_foto {
+        width: 36.6%;
+        height: 35.8%;
+    }
+
+    .service {
+        height: 1780px;
+    }
+
+    .service_background {
+        width: 88%;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        padding: 39px 0 0 0;
+    }
+
+    .service_headline {
+        width: 99%;
+        height: 15.6%;
+        display: flex;
+        padding: 22px 0px 0px 0px;
+        flex-direction: column;
+    }
+
+    .service_title {
+        width: 40%;
+        height: 42%;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .service_button {
+        width: 83.5%;
+        height: 20%;
+        align-self: normal;
+        padding: 40px 0px 0px 0px;
+    }
+
+    .service_content {
+        margin: 41px 0px 0px 0px;
+    }
+
+    .service_content_items {
+        gap: 4% 15.9%;
+        margin-left: 4px;
+    }
+
+    .service_content_items img {
+        height: 350px;
+        width: 280px;
+        display: none;
+    }
+
+    .service_content_items li {
+        width: 281px;
+        height: 450px;
+    }
+
+    .service_content_items div {
+        width: 100%;
+        height: 22.2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service_content_items h3 {
+        width: 52%;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 3px;
+        margin: 0;
+    }
+
+    .service_content_items p {
+        width: 73%;
+        height: 50%;
+        display: flex;
+        margin: 0;
+        text-align: -webkit-center;
+    }
+
+    .service_list1 {
+        background: url(assets/img/7801.png) no-repeat;
+        height: 350px;
+        width: 280px;
+        margin: 0px;
+    }
+
+    .service_list2 {
+        background: url(assets/img/7802.png) no-repeat;
+        margin: 0px;
+    }
+
+    .service_list3 {
+        background: url(assets/img/7803.png) no-repeat;
+        margin: 0px;
+    }
+
+    .service_list4 {
+        background: url(assets/img/7804.png) no-repeat;
+        margin: 0px;
+    }
+
+    .service_list5 {
+        background: url(assets/img/7805.png) no-repeat;
+        margin: 0px;
+    }
+
+    .service_list6 {
+        background: url(assets/img/7806.png) no-repeat;
+        margin: 0px;
+    }
+
+    .prices {
+        height: 585px;
+    }
+
+    .prices_wrapper {
+        width: 87.3%;
+        height: 89.5%;
+    }
+
+    .prices_wraper_container {
+        width: 52%;
+        height: 90.1%;
+    }
+
+    .prices_div {
+        height: 54.6%;
+        justify-content: flex-end;
+    }
+
+    .prices_title {
+        height: 98px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: right;
+    }
+
+    .prices_titlebtn {
+        width: 48%;
+        height: 19.6%;
+    }
+
+    .prices_wrapper_img {
+        width: 156px;
+        height: 185px;
+    }
+
+    .prices_container {
+        width: 51.4%;
+        height: 391.01px;
+    }
+
+    .prices_contitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: center;
+        margin: 9px 0 0 3px;
+    }
+
+    .contacts {
+        height: 739px;
+    }
+
+    .contacts_content {
+        height: 95.20%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contacts_img {
+        width: 200px;
+        height: 248.49px;
+        padding-left: 21px;
+    }
+
+    .contacts_div {
+        width: 71.4%;
+        height: 28.3%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts_column {
+        width: 96.6%;
+        height: 23.8%;
+        align-self: auto;
+    }
+
+    footer {
+        height: 181px;
+    }
+
+    .footer_block {
+        height: 78.1%;
+        width: 75.6%;
+        flex-direction: column;
+    }
+
+    .footer_git {
+        width: 31.9%;
+        height: 28.5%;
+        padding-left: 10px;
+    }
+
+    .footer_school {
+        width: 37.3%;
+        height: 30%;
+    }
+
+    .footer_socials {
+        width: 32.7%;
+    }
+}
+
+/*styles for width 380px*/
+
+@media screen and (max-width: 765px) {
+
+    body {
+        min-height: auto;
+    }
+
+    section,
+    header,
+    footer {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 96px;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .header_nav_burger {
+        display: flex;
+        z-index: 10;
+    }
+
+    .rotate-180 {
+        transform: rotate(180deg);
+        transition-duration: 500ms;
+    }
+
+    body:has(.nav_burger_open) {
+        overflow: hidden;
+    }
+
+    .nav_burger {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -70vh;
+        width: 100%;
+        height: 100%;
+        background: #ffffffc9;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition-duration: 1000ms;
+    }
+
+    .nav_burger_open {
+        left: 0;
+    }
+
+    .nav_burger ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    .nav_burger a {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        color: #000000;
+    }
+
+    .nav_burger_home a {
+            color: rgba(224, 103, 51, 1);
+    }
+
+    .welcome {
+        height: 300px;
+    }
+
+    .subheader_img {
+        display: none;
+    }
+
+    .welcome_img {
+        display: none;
+    }
+
+    .subheader {
+        width: 87%;
+        height: 85%;
+        flex-direction: none;
+    }
+
+    .subheader_div {
+        width: 100%;
+        height: 97.8%;
+    }
+
+    .subheader_title {
+        height: 29%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .subheader_subtitle {
+        width: 96%;
+        padding: 0px;
+    }
+
+    .subheader_button {
+        width: 30.2%;
+        height: 14%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .about {
+        height: 516px;
+    }
+
+    .about_background {
+        height: 97%;
+    }
+
+    .about_section {
+        width: 89%;
+        height: 95%;
+        justify-content: none;
+    }
+
+    .about_div {
+        height: 76%;
+        margin: 0;
+        justify-content: end;
+    }
+
+    .about_title {
+        width: 95%;
+        height: 24.2%;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .about_subtitle {
+        width: 99%;
+        height: 70%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .about_foto {
+        width: 43.6%;
+        height: 36.8%;
+    }
+
+    .service {
+        height: 3150px;
+    }
+
+    .service_background {
+        height: 100%;
+        padding: 0px;
+    }
+
+    .service_headline {
+        height: 6%;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .service_title {
+        width: 60%;
+        height: 43%;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .service_button {
+        width: 76.5%;
+        height: 45%;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+
+    .service_button button {
+        width: 121px;
+        height: 36px;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0px;
+    }
+
+    .service_content {
+        margin: 33px 0px 0px 0px;
+    }
+
+    .service_content_items {
+        gap: 3.6% 16%;
+        justify-content: center;
+    }
+
+    .service_content_items li {
+        margin: 0px;
+    }
+
+    .prices {
+        height: 512px;
+    }
+
+    .prices_wrapper {
+        height: 96.5%;
+        flex-direction: column-reverse;
+    }
+
+    .prices_container {
+        width: 100%;
+        height: 64.4%;
+        align-items: center;
+        padding-left: 1px;
+    }
+
+    .prices_contitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        margin: 16px 0 0 0px;
+    }
+
+    .prices_list {
+        width: 67%;
+        height: 74%;
+    }
+
+    .prices_list_container {
+        width: 81.7%;
+        height: 75.6%;
+    }
+
+    .prices_list_container div {
+        height: 28%;
+    }
+
+    .prices_list_container p {
+        width: 35.8%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .prices_list_container span {
+        width: 14%;
+    }
+
+    .prices_wraper_container {
+        height: 31.7%;
+        width: 100%;
+    }
+
+    .prices_div {
+        height: 79.6%;
+        align-items: center;
+    }
+
+    .prices_title {
+        width: 85%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .prices_titlebtn {
+        width: 36.5%;
+        height: 28.6%;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .prices_wrapper_img {
+        display: none;
+    }
+
+    .contacts {
+        height: 445px;
+    }
+
+    .contacts_img {
+        width: 100px;
+        height: 124.25px;
+        padding-right: 3px;
+        padding-left: 0px;
+    }
+
+    .contacts_div {
+        width: 96.4%;
+        height: 38.3%;
+    }
+
+    .contacts_title {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .contacts_column {
+        height: 30.8%;
+    }
+
+    .contacts_column_input {
+        width: 79.7%;
+    }
+
+    footer {
+        height: 146px;
+    }
+
+    .footer_block {
+        height: 86.1%;
+    }
+
+    .footer_git {
+        width: 64.9%;
+        height: 29.5%;
+    }
+
+    .footer_school {
+        width: 75.3%;
+        height: 30%;
+    }
+
+    .footer_socials {
+        width: 65.7%;
+        height: 36%;
+        margin: 0px;
     }
 }
