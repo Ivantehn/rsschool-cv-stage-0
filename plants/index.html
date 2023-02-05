@@ -104,49 +104,49 @@
                 <div class="service_headline">
                     <h2 class="service_title">Service and our projects</h2>
                     <div class="service_button">
-                        <button class="service_btngardens">Gardens</button>
-                        <button class="service_btnlawn">Lawn</button>
-                        <button class="service_btnplanting">Planting</button>
+                        <button id="garden" class="service_btngardens service-btn">Gardens</button>
+                        <button id="lawn" class="service_btnlawn service-btn">Lawn</button>
+                        <button id="planting" class="service_btnplanting service-btn">Planting</button>
                     </div>
                 </div>
                 <div class="service_content">
                     <ul class="service_content_items">
-                        <li class="service_list1">
+                        <li class="service_list service_list1 garden">
                             <div class="service_list1_div">
                                 <h3 class="service_list1_h3">Garden care</h3>
                                 <p class="service_list1_p">Lorem Ipsum has been the industry</p>
                             </div>
                             <img class="service_list1_img" src="assets/img/first.jpg" alt="Garden">
                         </li>
-                        <li class="service_list2">
+                        <li class="service_list service_list2 planting">
                             <div class="service_list2_div">
                                 <h3 class="service_list2_h3">Planting</h3>
                                 <p class="service_list2_p">Lorem Ipsum has been the industry</p>
                             </div>
                             <img class="service_list2_img" src="assets/img/first(1).jpg" alt="Planting">
                         </li>
-                        <li class="service_list3">
+                        <li class="service_list service_list3 lawn">
                             <div class="service_list3_div">
                                 <h3 class="service_list3_h3">Lawn care</h3>
                                 <p class="service_list3_p">Lorem Ipsum has been the industry</p>
                             </div>
                             <img class="service_list3_img" src="assets/img/first(2).jpg" alt="Lawn">
                         </li>
-                        <li class="service_list4">
+                        <li class="service_list service_list4 planting">
                             <div class="service_list4_div">
                                 <h3 class="service_list4_h3">Planting</h3>
                                 <p class="service_list4_p ">Lorem Ipsum has been the industry</p>
                             </div>
                             <img class="service_list4_img" src="assets/img/first(3).jpg" alt="Planting">
                         </li>
-                        <li class="service_list5">
+                        <li class="service_list service_list5 garden">
                             <div class="service_list5_div">
                                 <h3 class="service_list5_h3">Garden care</h3>
                                 <p class="service_list5_p">Lorem Ipsum has been the industry</p>
                             </div>
                             <img class="service_list5_img" src="assets/img/first(4).jpg" alt="Garden">
                         </li>
-                        <li class="service_list6">
+                        <li class="service_list service_list6 planting">
                             <div class="service_list6_div">
                                 <h3 class="service_list6_h3">Planting</h3>
                                 <p class="service_list6_p">Lorem Ipsum has been the industry</p>
@@ -173,26 +173,38 @@
                         <h2 class="prices_contitle">Prices</h2>
                         <div class="prices_list">
                             <div class="prices_list_container">
-                                <div class="prices_column_pro">
-                                    <p class="prices_col_title_pro">Pro care</p>
-                                    <span class="prices_col_dropdown1">
-                                        <button class="prices_dropbtn1"><img src="assets/fonts/arrow.svg"
+                                <div class="price_col prices_column_pro">
+                                    <div class="prices__title-wrapper">
+                                        <p class="prices_col_title_pro">Pro care</p>
+                                        <button class="price-open"><img class="price-open" src="assets/fonts/arrow.svg"
                                                 alt="dropdown"></button>
-                                    </span>
+                                    </div>
+                                    <p class="prices_col_release">Release of Letraset sheets containing Lorem Ipsum
+                                        passages, and more recently</p>
+                                    <p class="prices_col_price"><span>$35</span> / per hour</p>
+                                    <button class="prices_col_btnLern">Order</button>
                                 </div>
-                                <div class="prices_column_stan">
-                                    <p class="prices_col_title_stan">Standard</p>
-                                    <span class="prices_col_dropdown2">
-                                        <button class="prices_dropbtn2"><img src="assets/fonts/arrow.svg"
-                                                alt="dropdown"></button>
-                                    </span>
+                                <div class="price_col prices_column_stan">
+                                    <div class="prices__title-wrapper">
+                                        <p class="prices_col_title_stan">Standard</p>
+                                        <button class="price-open prices_dropbtn2"><img class="price-open"
+                                                src="assets/fonts/arrow.svg" alt="dropdown"></button>
+                                    </div>
+                                    <p class="prices_col_release">Release of Letraset sheets containing Lorem Ipsum
+                                        passages, and more recently</p>
+                                    <p class="prices_col_price"><span>$25</span> / per hour</p>
+                                    <button class="prices_col_btnLern">Order</button>
                                 </div>
-                                <div class="prices_column_basics">
-                                    <p class="prices_col_title_basics">Basics</p>
-                                    <span class="prices_col_dropdown3">
-                                        <button class="prices_dropbtn3"><img src="assets/fonts/arrow.svg"
-                                                alt="dropdown"></button>
-                                    </span>
+                                <div class="price_col prices_column_basics">
+                                    <div class="prices__title-wrapper">
+                                        <p class="prices_col_title_basics">Basics</p>
+                                        <button class="price-open prices_dropbtn3"><img class="price-open"
+                                                src="assets/fonts/arrow.svg" alt="dropdown"></button>
+                                    </div>
+                                    <p class="prices_col_release">Release of Letraset sheets containing Lorem Ipsum
+                                        passages, and more recently</p>
+                                    <p class="prices_col_price"><span>$15</span> / per hour</p>
+                                    <button class="prices_col_btnLern">Order</button>
                                 </div>
                             </div>
                         </div>
@@ -207,11 +219,31 @@
                     <div class="contacts_div">
                         <h2 class="contacts_title">Contact us</h2>
                         <div class="contacts_column">
-                            <input class="contacts_column_input" placeholder="City" type="text" name="City">
-                            <span class="contacts_dropdown">
-                                <button class="contacts_dropbtn"><img src="assets/fonts/arrow2.svg"
-                                        alt="dropdown"></button>
-                            </span>
+                            <div class="contacts_column_input" id="open-contact-menu">City
+                                <span class="contacts_dropdown">
+                                    <button class="contacts_dropbtn"><img src="assets/fonts/arrow2.svg"
+                                            alt="dropdown"></button>
+                                </span>
+                            </div>
+                            <ul class="hidden" id="contact-menu">
+                                <li class="city" id="city1">Canandaigua, NY</li>
+                                <li class="city" id="city2">New York City</li>
+                                <li class="city" id="city3">Yonkers, NY</li>
+                                <li class="city" id="city4">Sherrill, NY</li>
+                            </ul>
+                            <div class="selected-city-wrapper hidden" id="selected-city-wrapper">
+                                <div class="selected-city_left">
+                                    <p>City:</p>
+                                    <p>Phone:</p>
+                                    <p>Office address:</p>
+                                </div>
+                                <div class="selected-city_right">
+                                    <p id="city-value"></p>
+                                    <p id="phone-value"></p>
+                                    <p id="office-value"></p>
+                                    <button class="call-us" id="call-us">Call us</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
